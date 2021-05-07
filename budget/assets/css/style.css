@@ -1,0 +1,14 @@
+html,body{
+    height: 100vh;
+}
+body{
+background-image: url("../img/bgbudget.jpg");
+background-size: cover;
+position: relative;
+}
+body .action{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
